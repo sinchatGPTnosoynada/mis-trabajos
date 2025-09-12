@@ -104,6 +104,8 @@ public class ParticipanteController {
 
         opCol = new TableColumn<>("opciones");
 
+        opCol.setPrefWidth(200);
+
         tableRegPart.getColumns().addAll(dniCol, nombreCol,ApellidoCol , CarreraCol , TipoParticipanteCol, opCol);
 
     }
