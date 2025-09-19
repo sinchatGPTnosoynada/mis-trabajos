@@ -27,6 +27,4 @@ public enum Carrera {
     public String toString() {
         return descripcion;
     }
-
-
 }
