@@ -58,5 +58,56 @@ public abstract class ParticipanteRepository {
        return participantes;
    }
 
+   public Participante update(Participante p){
+       String sql = "UPDATE participante\n "
+               + "SET nombre = ? , apellidos = ? , carrera = ? , tipo_participante = ? , estado = ? \n"
+               + "WHERE dni = ?"  ;
+       int i = 0;
+
+       try {
+
+           pst = con.prepareStatement(sql);
+
+           pst.setString(++i, p.getNombre().getValue());
+           pst.setString(++i, p.getApellidos().getValue());
+           pst.setString(++i, p.getCarrera().name());
+           pst.setString(++i, p.getTipoParticipante().name());
+           pst.setBoolean(++i, p.getEstado().getValue());
+           pst.setString(++i, p.getDni().getValue());
+           pst.executeUpdate();
+
+       }
+
+       catch (SQLException e){
+
+           throw new RuntimeException(e);
+
+       }
+
+       return p;
+
+   }
+
+   public void delete(String dni){
+
+       String sql = " DELETE FROM participante WHERE dni = ? ";
+
+       int i = 0;
+
+       try {
+
+           pst=con.prepareStatement(sql);
+           pst.setString(++i, dni);
+           pst.executeUpdate();
+
+       }
+
+       catch (SQLException e ){
+
+           throw  new RuntimeException(e);
+
+       }
+
+   }
 
 }
