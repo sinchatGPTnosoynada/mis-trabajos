@@ -10,7 +10,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 
-public abstract class CrudGenericServiceImp <T,ID> implements ICrudGenericService<T,ID> {
+public abstract class CrudGenericServiceImp<T,ID> implements ICrudGenericService<T,ID> {
 
     protected  abstract ICrudGenericRepository<T,ID> getRepo();
 

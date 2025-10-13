@@ -53,5 +53,5 @@ public class Compra {
     private LocalDateTime fechaReg;
     @OneToMany(mappedBy = "compra", cascade = CascadeType.ALL,
             orphanRemoval = true)
-    private List<VentaDetalle> compraDetalles;
+    private List<CompraDetalle> compraDetalles;
 }

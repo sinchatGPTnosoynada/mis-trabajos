@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.Venta;
 
 
 @Repository
-public interface VentaRepository extends ICrudGenericRepository<Venta,Long>{
+public interface VentaRepository extends ICrudGenericRepository<Venta,Long> {
 }

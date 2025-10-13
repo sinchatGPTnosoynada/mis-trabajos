@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.Emisor;
 
 
 @Repository
-public interface EmisorRepository extends ICrudGenericRepository<Emisor,Long>{
+public interface EmisorRepository extends ICrudGenericRepository<Emisor,Long> {
 }

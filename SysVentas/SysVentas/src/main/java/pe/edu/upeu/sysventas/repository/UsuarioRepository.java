@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.Usuario;
 
 
 @Repository
-public interface UsuarioRepository extends ICrudGenericRepository<Usuario,Long>{
+public interface UsuarioRepository extends ICrudGenericRepository<Usuario,Long> {
 }

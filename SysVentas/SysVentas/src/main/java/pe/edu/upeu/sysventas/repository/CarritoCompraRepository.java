@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.CarritoCompra;
 
 @Repository
 
-public interface CarritoCompraRepository extends ICrudGenericRepository <CarritoCompra,Long>{
+public interface CarritoCompraRepository extends ICrudGenericRepository<CarritoCompra,Long> {
 }

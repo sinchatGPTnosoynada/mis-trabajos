@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.Cliente;
 
 
 @Repository
-public interface ClienteRepository extends ICrudGenericRepository <Cliente,Long>{
+public interface ClienteRepository extends ICrudGenericRepository<Cliente,String > {
 }

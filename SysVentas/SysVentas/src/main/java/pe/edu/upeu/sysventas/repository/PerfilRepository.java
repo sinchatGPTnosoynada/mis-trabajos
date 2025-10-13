@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.Perfil;
 
 
 @Repository
-public interface PerfilRepository extends ICrudGenericRepository<Perfil,Long>{
+public interface PerfilRepository extends ICrudGenericRepository<Perfil,Long> {
 }

@@ -5,7 +5,7 @@ import pe.edu.upeu.sysventas.model.Categoria;
 
 @Repository
 
-public interface CategoriaRepository extends ICrudGenericRepository<Categoria,Long>{
+public interface CategoriaRepository extends ICrudGenericRepository<Categoria,Long> {
 
 
 

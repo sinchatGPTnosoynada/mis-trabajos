@@ -9,17 +9,18 @@ import java.util.List;
 
 public interface ProductoRepository extends JpaRepository<Producto,Long> {
 
-        @Query(value = "SELECT p.* FROM upeu_producto p WHERE p.nombre like:filter", nativeQuery = true)
+        @Query(value = "SELECT p.* FROM upeu_producto p WHERE p.nombre like :filter", nativeQuery = true)
         List<Producto> listAutoCompletProducto(@Param("filter") String filter);
 
         @Query(value = "SELECT p.* FROM upeu_producto p WHERE p.id_marca=:filter", nativeQuery = true)
         List<Producto> listProductoMarca(@Param("filter") Integer filter);
 
-        @Query(value = "SELECT p.* FROM upeu_producto p WHERE p.nombre LIKE :filder")
-        List<Producto> listAutoCompletProductoJ(@Param("filder") String filder);
 
-        @Query(value = "SELECT p.* FROM producto p WHERE p.marca.idMarca LIKE :filder")
-        List<Producto> listProductoMarcaJ(@Param("filder") String filder);
+        @Query("SELECT p FROM Producto p WHERE p.nombre LIKE :filter")
+        List<Producto> listAutoCompletProductoJ(@Param("filter") String filter);
+
+        @Query("SELECT p FROM Producto p WHERE p.marca.idMarca = :filter")
+        List<Producto> listProductoMarcaJ(@Param("filter") Integer filter);
 
 
 }

@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.CompraDetalle;
 
 
 @Repository
-public interface CompraDetalleRepository extends ICrudGenericRepository<CompraDetalle,Long>{
+public interface CompraDetalleRepository extends ICrudGenericRepository<CompraDetalle,Long> {
 }

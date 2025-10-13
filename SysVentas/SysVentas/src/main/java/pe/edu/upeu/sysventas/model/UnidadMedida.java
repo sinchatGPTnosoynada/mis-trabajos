@@ -13,7 +13,7 @@ import lombok.*;
 public class UnidadMedida {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
+    @Column(name = "id_unidad")
     private Long idUnidad;
 
     @Column(nullable = false, length = 60)

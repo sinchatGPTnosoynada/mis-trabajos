@@ -5,5 +5,5 @@ import pe.edu.upeu.sysventas.model.UnidadMedida;
 
 
 @Repository
-public interface UnidadMededaRepository extends ICrudGenericRepository<UnidadMedida,Long>{
+public interface UnidadMedidaRepository extends ICrudGenericRepository<UnidadMedida,Long> {
 }
