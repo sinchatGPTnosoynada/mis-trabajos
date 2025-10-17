@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class ComboxOption {
+public class ComboBoxOption {
 
     String key;
 
