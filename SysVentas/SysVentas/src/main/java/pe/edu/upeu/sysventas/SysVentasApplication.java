@@ -36,18 +36,24 @@ public class SysVentasApplication extends Application {
 		ctx=builder.run(getParameters().getRaw().toArray(new
 				String[0]));
 		FXMLLoader loader = new
-				FXMLLoader(getClass().getResource("/view/main_producto.fxml"));
+				FXMLLoader(getClass().getResource("/view/login.fxml"));
 		loader.setControllerFactory(ctx::getBean);
 		parent = loader.load();
 	}
 	@Override
 	public void start(Stage stage) throws Exception {
-		Screen screen = Screen.getPrimary();
-		Rectangle2D bounds = screen.getVisualBounds();
-		stage.setScene(new Scene(parent, bounds.getWidth(),
-				bounds.getHeight()-100));
+		//Screen screen = Screen.getPrimary();
+		//Rectangle2D bounds = screen.getVisualBounds();
+		//stage.setScene(new Scene(parent, bounds.getWidth(), bounds.getHeight()-100));
+
+		Scene scene = new Scene(parent);
+
+		stage.setScene(scene);
 		stage.setTitle("SysVentas SysCenterLife");
 		stage.show();
 	}
+
+
+
 }
 
