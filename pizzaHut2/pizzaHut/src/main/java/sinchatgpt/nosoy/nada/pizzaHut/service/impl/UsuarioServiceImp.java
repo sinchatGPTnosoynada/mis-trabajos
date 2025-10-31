@@ -2,10 +2,10 @@ package sinchatgpt.nosoy.nada.pizzaHut.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.model.Usuario;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.repository.UsuarioRepository;
-import pe.edu.upeu.sysventas.service.IUsuarioService;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Usuario;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.UsuarioRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IUsuarioService;
 @RequiredArgsConstructor
 @Service
 public class UsuarioServiceImp extends CrudGenericServiceImp<Usuario, Long> implements IUsuarioService {

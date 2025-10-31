@@ -1,6 +1,6 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.model.Emisor;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Emisor;
 
 public interface IEmisorService extends  ICrudGenericService<Emisor,Long>{
 }

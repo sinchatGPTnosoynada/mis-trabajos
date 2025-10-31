@@ -4,10 +4,10 @@ package sinchatgpt.nosoy.nada.pizzaHut.service.impl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pe.edu.upeu.sysventas.model.CarritoVenta;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.repository.VentaCarritoRepository;
-import pe.edu.upeu.sysventas.service.IVentCarritoService;
+import sinchatgpt.nosoy.nada.pizzaHut.model.CarritoVenta;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.VentaCarritoRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IVentCarritoService;
 
 import java.util.List;
 

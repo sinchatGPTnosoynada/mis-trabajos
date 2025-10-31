@@ -2,10 +2,10 @@ package sinchatgpt.nosoy.nada.pizzaHut.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.model.VentaDetalle;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.repository.VentaDetalleRepository;
-import pe.edu.upeu.sysventas.service.IVentaDetalleService;
+import sinchatgpt.nosoy.nada.pizzaHut.model.VentaDetalle;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.VentaDetalleRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IVentaDetalleService;
 
 @RequiredArgsConstructor
 @Service

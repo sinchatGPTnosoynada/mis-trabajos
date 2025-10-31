@@ -1,7 +1,7 @@
 package sinchatgpt.nosoy.nada.pizzaHut.repository;
 
 import org.springframework.stereotype.Repository;
-import pe.edu.upeu.sysventas.model.Categoria;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Categoria;
 
 @Repository
 

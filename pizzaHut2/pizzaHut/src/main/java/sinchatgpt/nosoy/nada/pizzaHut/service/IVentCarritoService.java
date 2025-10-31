@@ -1,7 +1,7 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
 
-import pe.edu.upeu.sysventas.model.CarritoVenta;
+import sinchatgpt.nosoy.nada.pizzaHut.model.CarritoVenta;
 
 import java.util.List;
 

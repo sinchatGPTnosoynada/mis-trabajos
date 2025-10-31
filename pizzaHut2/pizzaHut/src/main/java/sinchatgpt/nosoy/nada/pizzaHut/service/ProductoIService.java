@@ -1,7 +1,7 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.dto.ModeloDataAutocomplet;
-import pe.edu.upeu.sysventas.model.Producto;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ModeloDataAutocomplet;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Producto;
 
 import java.util.List;
 

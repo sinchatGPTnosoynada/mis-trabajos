@@ -1,6 +1,6 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.dto.MenuMenuItenTO;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.MenuMenuItenTO;
 
 import java.util.List;
 import java.util.Map;

@@ -13,10 +13,10 @@ import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
-import pe.edu.upeu.sysventas.dto.MenuMenuItenTO;
-import pe.edu.upeu.sysventas.dto.SessionManager;
-import pe.edu.upeu.sysventas.service.IMenuMenuItemDao;
-import pe.edu.upeu.sysventas.utils.UtilsX;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.MenuMenuItenTO;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.SessionManager;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IMenuMenuItemDao;
+import sinchatgpt.nosoy.nada.pizzaHut.utils.UtilsX;
 
 import java.io.IOException;
 import java.util.List;

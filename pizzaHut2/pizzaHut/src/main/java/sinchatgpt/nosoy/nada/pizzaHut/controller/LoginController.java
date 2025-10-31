@@ -18,11 +18,11 @@ import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
-import pe.edu.upeu.sysventas.components.StageManager;
-import pe.edu.upeu.sysventas.components.Toast;
-import pe.edu.upeu.sysventas.dto.SessionManager;
-import pe.edu.upeu.sysventas.model.Usuario;
-import pe.edu.upeu.sysventas.service.IUsuarioService;
+import sinchatgpt.nosoy.nada.pizzaHut.components.StageManager;
+import sinchatgpt.nosoy.nada.pizzaHut.components.Toast;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.SessionManager;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Usuario;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IUsuarioService;
 
 import java.io.IOException;
 

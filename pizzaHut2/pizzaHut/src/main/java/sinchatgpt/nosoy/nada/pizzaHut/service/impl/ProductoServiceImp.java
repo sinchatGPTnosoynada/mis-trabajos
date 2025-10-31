@@ -4,10 +4,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.dto.ModeloDataAutocomplet;
-import pe.edu.upeu.sysventas.model.Producto;
-import pe.edu.upeu.sysventas.repository.ProductoRepository;
-import pe.edu.upeu.sysventas.service.ProductoIService;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ModeloDataAutocomplet;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Producto;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ProductoRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.ProductoIService;
 
 import java.util.ArrayList;
 import java.util.List;

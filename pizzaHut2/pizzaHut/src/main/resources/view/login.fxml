@@ -7,7 +7,7 @@
 <?import javafx.scene.text.*?>
 <AnchorPane style="-fx-background-color: #2e354f;" xmlns="http://javafx.com/javafx/17.0.12"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="pe.edu.upeu.sysventas.controller.LoginController">
+            fx:controller="sinchatgpt.nosoy.nada.pizzaHut.controller.LoginController">
     <children>
         <AnchorPane AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
             <children>

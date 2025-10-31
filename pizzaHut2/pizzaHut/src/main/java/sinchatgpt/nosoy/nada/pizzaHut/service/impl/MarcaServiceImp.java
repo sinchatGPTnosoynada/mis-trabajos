@@ -2,11 +2,11 @@ package sinchatgpt.nosoy.nada.pizzaHut.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.dto.ComboBoxOption;
-import pe.edu.upeu.sysventas.model.Marca;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.repository.MarcaRepository;
-import pe.edu.upeu.sysventas.service.IMarcaService;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ComboBoxOption;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Marca;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.MarcaRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IMarcaService;
 
 import java.util.ArrayList;
 import java.util.List;

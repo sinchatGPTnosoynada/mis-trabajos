@@ -3,7 +3,7 @@ package sinchatgpt.nosoy.nada.pizzaHut.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import pe.edu.upeu.sysventas.model.Producto;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Producto;
 
 import java.util.List;
 

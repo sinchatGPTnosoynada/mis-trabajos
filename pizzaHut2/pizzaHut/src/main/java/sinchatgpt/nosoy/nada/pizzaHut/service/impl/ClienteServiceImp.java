@@ -4,11 +4,11 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.dto.ModeloDataAutocomplet;
-import pe.edu.upeu.sysventas.model.Cliente;
-import pe.edu.upeu.sysventas.repository.ClienteRepository;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.service.IClienteService;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ModeloDataAutocomplet;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Cliente;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ClienteRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IClienteService;
 
 import java.util.ArrayList;
 import java.util.List;

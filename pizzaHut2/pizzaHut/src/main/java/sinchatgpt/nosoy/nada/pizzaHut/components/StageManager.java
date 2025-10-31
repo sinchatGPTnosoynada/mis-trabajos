@@ -1,4 +1,4 @@
-package sinchatgpt.nosoy.nada.pizzaHut.compoments;
+package sinchatgpt.nosoy.nada.pizzaHut.components;
 
 import javafx.stage.Stage;
 

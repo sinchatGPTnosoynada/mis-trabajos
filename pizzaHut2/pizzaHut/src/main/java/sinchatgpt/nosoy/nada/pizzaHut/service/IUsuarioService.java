@@ -1,6 +1,6 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.model.Usuario;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Usuario;
 
 public interface IUsuarioService extends ICrudGenericService<Usuario,Long>{
 

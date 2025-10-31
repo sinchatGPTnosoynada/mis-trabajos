@@ -1,6 +1,6 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.model.VentaDetalle;
+import sinchatgpt.nosoy.nada.pizzaHut.model.VentaDetalle;
 
 public interface IVentaDetalleService extends ICrudGenericService <VentaDetalle,Long>{
 

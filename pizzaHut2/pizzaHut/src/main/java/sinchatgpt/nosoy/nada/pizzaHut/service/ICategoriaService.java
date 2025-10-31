@@ -1,8 +1,8 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.dto.ComboBoxOption;
-import pe.edu.upeu.sysventas.model.Categoria;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ComboBoxOption;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Categoria;
 
 import java.util.List;
 

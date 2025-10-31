@@ -1,8 +1,8 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service.impl;
 
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.dto.MenuMenuItenTO;
-import pe.edu.upeu.sysventas.service.IMenuMenuItemDao;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.MenuMenuItenTO;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IMenuMenuItemDao;
 
 import java.util.*;
 

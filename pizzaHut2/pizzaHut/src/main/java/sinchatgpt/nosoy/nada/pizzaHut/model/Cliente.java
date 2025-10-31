@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pe.edu.upeu.sysventas.enums.TipoDocumento;
+import sinchatgpt.nosoy.nada.pizzaHut.enums.TipoDocumento;
 
 @Builder
 @NoArgsConstructor

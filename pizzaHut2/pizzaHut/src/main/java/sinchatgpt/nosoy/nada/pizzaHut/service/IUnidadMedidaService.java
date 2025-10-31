@@ -1,7 +1,7 @@
 package sinchatgpt.nosoy.nada.pizzaHut.service;
 
-import pe.edu.upeu.sysventas.dto.ComboBoxOption;
-import pe.edu.upeu.sysventas.model.UnidadMedida;
+import sinchatgpt.nosoy.nada.pizzaHut.dto.ComboBoxOption;
+import sinchatgpt.nosoy.nada.pizzaHut.model.UnidadMedida;
 
 import java.util.List;
 

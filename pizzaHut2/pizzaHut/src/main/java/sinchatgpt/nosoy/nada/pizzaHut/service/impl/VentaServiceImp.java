@@ -7,10 +7,10 @@ import net.sf.jasperreports.engine.design.JasperDesign;
 import net.sf.jasperreports.engine.xml.JRXmlLoader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.sysventas.model.Venta;
-import pe.edu.upeu.sysventas.repository.ICrudGenericRepository;
-import pe.edu.upeu.sysventas.repository.VentaRepository;
-import pe.edu.upeu.sysventas.service.IVentaService;
+import sinchatgpt.nosoy.nada.pizzaHut.model.Venta;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.ICrudGenericRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.repository.VentaRepository;
+import sinchatgpt.nosoy.nada.pizzaHut.service.IVentaService;
 
 import javax.sql.DataSource;
 import java.io.File;
