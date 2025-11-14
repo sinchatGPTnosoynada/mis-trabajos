@@ -79,7 +79,7 @@ public class VentaServiceImp extends CrudGenericServiceImp<Venta, Long> implemen
         String imgen = getFile("logoupeu.png").getAbsolutePath();
         // Agregar parámetros
         param.put("fechaI", fechaI);
-        //param.put("imagenurl", imgen);
+        param.put("imagenurl", imgen);
         param.put("fechaF", fechaF);
         // Cargar el diseño del informe
         JasperDesign jdesign = JRXmlLoader.load(getFile("reporte_ventas.jrxml"));

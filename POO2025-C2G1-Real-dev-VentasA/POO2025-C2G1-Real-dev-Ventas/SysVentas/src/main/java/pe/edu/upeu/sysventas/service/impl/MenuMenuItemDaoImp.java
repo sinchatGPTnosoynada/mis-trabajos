@@ -17,6 +17,7 @@ public class MenuMenuItemDaoImp implements IMenuMenuItemDao {
         lista.add(new MenuMenuItenTO("micliente", "/view/main_cliene.fxml", "Venta", "Reg. Cliente", "Gestionar Cliente", "T"));
         lista.add(new MenuMenuItenTO("miventa", "/view/main_venta.fxml", "Venta", "Reg. Venta", "Gestionar Ventas", "T"));
 
+        lista.add(new MenuMenuItenTO("mireporte.fxml","view/main_reporte.fxml",));
 
         List<MenuMenuItenTO> accesoReal = new ArrayList<>();
 
