@@ -92,10 +92,10 @@ public class ProductoController {
                         if (String.valueOf(producto.getUtilidad()).contains(lowerCaseFilter)) {
                             return true;
                         }
-                        if
-                        (producto.getMarca().getNombre().toLowerCase().contains(lowerCaseFilter)) {
+                        if (producto.getMarca().getNombre().toLowerCase().contains(lowerCaseFilter)) {
                             return true;
                         }
+
                         if
                         (producto.getCategoria().getNombre().toLowerCase().contains(lowerCaseFilter)) {
                             return true;
@@ -349,20 +349,23 @@ public class ProductoController {
         formulario.setUtilidad(parseDoubleSafe(txtUtilidad.getText()));
         formulario.setStock(parseDoubleSafe(txtStock.getText()));
         formulario.setStockOld(parseDoubleSafe(txtStockOld.getText()));
-        String idxM=cbxMarca.getSelectionModel().getSelectedItem()==null?"0":cbxMarca.getSelectionModel().getSelectedItem().getKey();
-        formulario.setMarca(idxM=="0"?null:ms.finByID(Long.parseLong(idxM)));
-        String idxC=cbxCategoria.getSelectionModel().getSelectedItem()==null?"0":cbxCategoria.getSelectionModel().getSelectedItem().getKey();
-        formulario.setCategoria(idxC=="0"?null:cs.finByID(Long.parseLong(idxC)));
-        String idxUM=cbxUnidMedida.getSelectionModel().getSelectedItem()==null?"0":cbxUnidMedida.getSelectionModel().getSelectedItem().getKey();
-        formulario.setUnidadMedida(idxUM=="0"?null:ums.finByID(Long.parseLong(idxUM)));
+        String idxM = cbxMarca.getSelectionModel().getSelectedItem() == null ? "0" : cbxMarca.getSelectionModel().getSelectedItem().getKey();
+        formulario.setMarca(idxM == "0" ? null : ms.finByID(Long.parseLong(idxM)));
+        String idxC = cbxCategoria.getSelectionModel().getSelectedItem() == null ? "0" : cbxCategoria.getSelectionModel().getSelectedItem().getKey();
+        formulario.setCategoria(idxC == "0" ? null : cs.finByID(Long.parseLong(idxC)));
+        String idxUM = cbxUnidMedida.getSelectionModel().getSelectedItem() == null ? "0" : cbxUnidMedida.getSelectionModel().getSelectedItem().getKey();
+        formulario.setUnidadMedida(idxUM == "0" ? null : ums.finByID(Long.parseLong(idxUM)));
+
         Set<ConstraintViolation<Producto>> violaciones = validator.validate(formulario);
+
         List<ConstraintViolation<Producto>> violacionesOrdenadas = violaciones.stream()
                 .sorted(Comparator.comparing(v -> v.getPropertyPath().toString()))
                 .toList();
+
+
         if (violacionesOrdenadas.isEmpty()) {
             procesarFormulario();
-        }
-        else {
+        } else {
             mostrarErroresValidacion(violacionesOrdenadas);
         }
     }
