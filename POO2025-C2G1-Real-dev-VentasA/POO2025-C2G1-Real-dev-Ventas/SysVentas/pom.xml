@@ -164,8 +164,7 @@
 							<artifactId>lombok</artifactId>
 						</path>
 					</annotationProcessorPaths>
-                    <mainClass>pe.edu.upeu.sysventas</mainClass>
-                </configuration>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
