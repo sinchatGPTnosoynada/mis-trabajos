@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 9
+=========================================
+FECHA: 21/11/2025 14:48:09
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: fran apaza
+DNI: 61093455
+METODO DE PAGO: Débito
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+hawaiiana            6        20.00      120.00    
+-----------------------------------------
+MONTO TOTAL: 120.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

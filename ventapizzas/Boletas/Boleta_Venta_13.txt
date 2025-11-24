@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 13
+=========================================
+FECHA: 24/11/2025 08:05:08
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: antoni flores mamani
+DNI: 87654321
+METODO DE PAGO: Débito
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+hawaiiana            8        20.00      160.00    
+-----------------------------------------
+MONTO TOTAL: 160.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

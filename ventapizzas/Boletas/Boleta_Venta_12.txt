@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 12
+=========================================
+FECHA: 24/11/2025 08:03:54
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: antoni flores mamani
+DNI: 87654321
+METODO DE PAGO: Efectivo
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+pizza con peperoni   1        30.00      30.00     
+-----------------------------------------
+MONTO TOTAL: 30.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!
