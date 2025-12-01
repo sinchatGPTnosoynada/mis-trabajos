@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 7
+=========================================
+FECHA: 21/11/2025 14:43:01
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: david mamani
+DNI: 71717171
+METODO DE PAGO: Efectivo
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+colo de burro        5        1.00       5.00      
+-----------------------------------------
+MONTO TOTAL: 5.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

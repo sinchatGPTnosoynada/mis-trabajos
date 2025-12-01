@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 6
+=========================================
+FECHA: 21/11/2025 14:35:15
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: David Mamani
+DNI: 21345678
+METODO DE PAGO: Efectivo
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+pizza con peperoni   1        30.00      30.00     
+-----------------------------------------
+MONTO TOTAL: 30.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

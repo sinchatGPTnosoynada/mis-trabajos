@@ -1,0 +1,20 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 5
+=========================================
+FECHA: 03/11/2025 11:07:33
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: francis apaza
+DNI: 123456
+METODO DE PAGO: Débito
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+pizza con peperoni   1        30.00      30.00     
+hawaiiana            1        20.00      20.00     
+-----------------------------------------
+MONTO TOTAL: 50.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

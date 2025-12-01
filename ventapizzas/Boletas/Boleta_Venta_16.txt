@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 16
+=========================================
+FECHA: 24/11/2025 12:22:58
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: Paul Apaza Chambi
+DNI: 12345678
+METODO DE PAGO: Débito
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+hawaiiana            1        20.00      20.00     
+-----------------------------------------
+MONTO TOTAL: 20.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

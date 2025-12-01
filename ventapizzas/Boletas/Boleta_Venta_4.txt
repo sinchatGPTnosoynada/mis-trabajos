@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 4
+=========================================
+FECHA: 03/11/2025 10:33:53
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: Paul Cari
+DNI: 123456
+METODO DE PAGO: Débito
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+hawaiiana            5        20.00      100.00    
+-----------------------------------------
+MONTO TOTAL: 100.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!

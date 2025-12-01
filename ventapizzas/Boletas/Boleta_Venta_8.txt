@@ -1,0 +1,19 @@
+=========================================
+           SABOR SISTEMAS
+           BOLETA DE VENTA N° 8
+=========================================
+FECHA: 21/11/2025 14:43:33
+VENDEDOR: paul@gmail.com
+-----------------------------------------
+CLIENTE: david mamani
+DNI: 21212121
+METODO DE PAGO: Efectivo
+-----------------------------------------
+DETALLES DE LA VENTA:
+PRODUCTO             CANT.    P.UNIT.    SUBTOTAL  
+-----------------------------------------
+hawaiiana            5        20.00      100.00    
+-----------------------------------------
+MONTO TOTAL: 100.00
+=========================================
+       ¡GRACIAS POR SU COMPRA!
